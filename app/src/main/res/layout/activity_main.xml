@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="595dp"
+        android:layout_above="@+id/detect"
+        android:layout_marginBottom="48dp">
+
+
+    </com.wonderkiln.camerakit.CameraView>
+
+    <TextView
+        android:id="@+id/smile_prob"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="88dp"
+        android:background="#8E8888"
+        android:backgroundTint="#F1EEEE"
+        android:fontFamily="@font/aguafina_script"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/detect"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/shr_button_cancel" />
+
+    <com.example.detector.GraphicOverlay
+        android:id="@+id/graphic_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        android:layout_above="@+id/smile_prob"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="6dp" />
+
+
+</RelativeLayout>
+
+
+

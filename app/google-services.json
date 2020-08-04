@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "83630254995",
+    "firebase_url": "https://detector-1cb07.firebaseio.com",
+    "project_id": "detector-1cb07",
+    "storage_bucket": "detector-1cb07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83630254995:android:a3f006aa7886307a6f9666",
+        "android_client_info": {
+          "package_name": "com.example.detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83630254995-vtiavn59r0gstnub7sb46vohq3mu71l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdKNst1HJ60equylt-x9QBPmjzzHrZU7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83630254995-vtiavn59r0gstnub7sb46vohq3mu71l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
